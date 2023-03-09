@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg" style="background-color: orange">
+        <div class="container-fluid">
+          <a class="navbar navbar-brand" href="#"
+            ><img class="logo" src="./images/logo.jpg" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Accueil</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Menus</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nous contacter</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <h1>Las pizzas del Toto</h1>
+    </header>
+
+    <main>
+      <div class="container-fluid text-center">
+        <div class="row">
+          <div class="column col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <img
+                src="./images/devanture.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="cartes card-body">
+                <h5 class="card-title">Diego, notre pizzaiolo</h5>
+                <p class="card-text">
+                  Tu veux déguster les meilleurs pizzas de la région ?
+                </p>
+                <a href="#" class="btn btn-primary">Tape m'en une !</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="column col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <img
+                src="./images/devanture.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="cartes card-body">
+                <h5 class="card-title">Diego, notre pizzaiolo</h5>
+                <p class="card-text">
+                  Tu veux déguster les meilleurs pizzas de la région ?
+                </p>
+                <a href="#" class="btn btn-primary">Tape m'en une !</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="column col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <img
+                src="./images/devanture.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="cartes card-body">
+                <h5 class="card-title">Las pizzas del Toto</h5>
+                <p class="card-text">
+                  Tu veux déguster les meilleurs pizzas de la région ?
+                </p>
+                <a href="#" class="btn btn-primary">Tape m'en une !</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="break" />
+
+      <h2>Un aperçu de nos produits... N'en bavez pas !</h2>
+
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        style="max-width: 800px; margin: auto"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./images/pizza-2068272_640.jpg"
+              class="carousseld-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption">
+              <h5>La Margarita</h5>
+              <p>Une de nos spécialités, aromatisé à notre façon !</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/pizza1.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>La 4 Fromages</h5>
+              <p>
+                La pizza qui réveillera vos pupilles et illuminera votre palai !
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/pizza-3010062_640.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>La Kebab</h5>
+              <p>
+                La pizza fétiche de nos fidèles clients ! A ne pas manquer !
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </main>
+
+    <h2>Nos réseaux :</h2>
+    <div class="logos">
+      <img src="./images/facebook.png" alt="" />
+      <img src="./images/twitter.png" alt="" />
+      <img src="./images/instagram.png" alt="" />
+    </div>
+
+    <footer>
+      <h2>Adresse :</h2>
+      <a
+        href="https://www.google.fr/maps/place/Rue+du+Boulevard,+69100+Villeurbanne/@45.7780637,4.8664228,17z/data=!3m1!4b1!4m6!3m5!1s0x47f4ea99396f0dbb:0xc4c214c4696c6e26!8m2!3d45.77806!4d4.8686115!16s%2Fg%2F1tm8db4_"
+        title="Y aller !"
+        target="_blank"
+        ><p class="adresse">69 Rue du Boulevard, 69001 Lyon</p></a
+      >
+
+      <a href=""><p>Mentions légales</p></a>
+
+      <p class="cp">Copyright © 2023-2028 - Tous droits réservés</p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

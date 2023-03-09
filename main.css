@@ -1,0 +1,107 @@
+.logo {
+  width: 150px;
+  border-radius: 20%;
+}
+
+h1,
+h2 {
+  margin: 15px;
+  text-align: center;
+  font-weight: 900;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+body {
+  background-color: #7aa95c;
+}
+
+.break {
+  color: green;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  height: 100px;
+}
+
+footer {
+  margin-top: 2em;
+  background: linear-gradient(#7aa95c, #8a4b57);
+  height: 175px;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer a {
+  text-align: left;
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  font-size: large;
+  transition: ease-in-out;
+  transition-duration: 0.5s;
+}
+
+.adresse {
+  transition: ease-in-out;
+  transition-duration: 0.5s;
+  cursor: cell;
+}
+
+ul.navbar-nav {
+  margin: auto;
+}
+
+a.navbar-brand {
+  max-width: 200px;
+}
+.card {
+  margin: auto;
+  margin-bottom: 15px;
+  max-width: 400px;
+  background: linear-gradient(#a7001e, #7aa95c);
+  border: none;
+}
+
+.column {
+  text-align: center;
+}
+
+.navbar {
+  background: linear-gradient(to bottom, #8a4b57, #7aa95c);
+}
+
+.navbar a:hover {
+  color: white;
+}
+
+.carousel-inner {
+  border-radius: 15%;
+}
+
+#background-video {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.btn.btn-primary {
+  background: linear-gradient(#7aa95c, #7aa95c8f);
+  border: none;
+  color: black;
+}
